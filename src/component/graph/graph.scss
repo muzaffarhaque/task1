@@ -1,0 +1,19 @@
+.content-graph{
+    padding: 2vw;
+}
+.graph-button{
+    font-size: calc(.5rem + .6vw);
+    padding:10px 1vw;
+    background-color: rgb(31, 55, 159);
+    border: none;
+    color: aqua;
+    outline: navajowhite;
+    margin: 2vh 3vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(160, 156, 156);
+    cursor: pointer;
+    &:hover {
+        background-color: orange;
+        color: white;
+    }
+}

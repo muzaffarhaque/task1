@@ -1,0 +1,102 @@
+.main-login-container {
+    padding: 10% 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.login-box-frame {
+    width: 30%;
+    height: auto;
+    background-color: rgb(105, 219, 160);
+    // border: 2px solid red;
+    padding: 10px 2vw;
+    h2 {
+        font-size: calc(1rem + .9vw);
+        font-weight: bold;
+        color: white;
+        text-align: center;
+
+    }
+    h4 {
+        font-size: calc(.8rem + .8vw);
+        text-align: center;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    form {
+        label {
+            display: block;
+            padding: 1vw;
+            margin-bottom: 2vh;
+            //    border: 1px solid black;
+            font-size: calc(.6rem + .4vw);
+            color: rgba(11, 11, 11,.7);
+            position: relative;
+
+            span {
+                color: red;
+            }
+            input {
+                width: 100%;
+                padding: 8px 4px;
+                font-size: calc(.5rem + .4vw);
+                color: rgba(12, 11, 11,.5);
+                margin: 10px 0;
+                font-size: calc(.7rem + .5vw);
+                outline: none;
+                border: none;
+                &::placeholder{
+                    color: rgba(17, 15, 15,.3);
+                }
+
+            }
+            &:nth-child(2) {
+                input {
+                    width: 90%;
+                }
+            }
+
+        }
+        p {
+            width: 100%;
+            padding: 8px 4px;
+            text-align: center;
+            font-size: calc(.5rem + .4vw);
+        }
+        .button-login {
+            font-size: calc(.5rem + .6vw);
+            padding: 5px 1vw;
+            background-color: white;
+            border: none;
+            outline: navajowhite;
+            margin: 2vh 0;
+            &:hover {
+                background-color: orange;
+                color: white;
+            }
+        }
+    }
+}
+
+.icon-password {
+    padding: 2% ;
+    position: absolute;
+    bottom: 30px;
+    cursor: pointer;
+    // background-color: whitesmoke;
+
+}
+@media (max-width:900px) {
+    .login-box-frame {
+        width: 94%;
+
+    }
+    .icon-password {
+      
+        bottom: 15px;
+        // background-color: whitesmoke;
+    
+    }
+}
