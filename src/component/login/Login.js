@@ -27,7 +27,7 @@ export default function Login() {
   let navigate=useNavigate()
 
 
-
+useEffect(()=>{alert("For login used this: name=RahBaj10393  password=B9xsSVQ, \n  name=sam1 and password=12345")},[])
 
 
 function changehandel(e){
