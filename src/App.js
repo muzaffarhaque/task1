@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
     
-        <BrowserRouter>
+        <BrowserRouter basename='/digitech'>
         <Routes>
-          <Route path='/' element={<Login/>}/>
+          <Route exact path='/digitech' element={<Login/>}/>
           <Route path='/graph' element={<Graph/>}/>
         </Routes>
         </BrowserRouter>
